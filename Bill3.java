@@ -9,6 +9,6 @@ public class Bill3 {
     //Calculate the avg price for each person and rounding it up.     
         double eachPrice= value/3.0;
         double newPrice= Math.ceil(eachPrice);
-        System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": Pay " + newPrice +" Shekels each.");
+        System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + newPrice +" Shekels each.");
        }
 	}
