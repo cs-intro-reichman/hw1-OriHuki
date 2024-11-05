@@ -13,7 +13,7 @@ public class FVCalc {
 
 	if (currentValue>=0) {
 		futureValue = (currentValue * Math.pow(newRate +1, n));
-		System.out.println("After " + n + " years, " + currentValue + "$ saved at " + rate +  "% will yield " + (int)futureValue + "$" ); }
+		System.out.println("After " + n + " years,  a$" + currentValue + " saved at " + rate +  "% will yield $" + (int)futureValue); }
 
 	}
 }
