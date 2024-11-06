@@ -7,9 +7,9 @@ public class Ascend {
 		
 		if (lim>0 && lim <=100) {
 			// GET 3 RANDOM NUMBERS LESS THAN LIM 
-			int a = (int)(Math.random() * 100); 
-			int b = (int)(Math.random() * 100); 
-			int c = (int)(Math.random() * 100); 
+			int a = (int)(Math.random() * lim); 
+			int b = (int)(Math.random() * lim); 
+			int c = (int)(Math.random() * lim); 
 			
 			//PRINT 3 RANDOM NUMBERS A,B,C 
 			System.out.println(a + " " + b + " " +c );
