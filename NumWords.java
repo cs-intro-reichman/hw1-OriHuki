@@ -8,6 +8,10 @@ public class NumWords {
 	int tens = (number/10)%10; 
 	int hundreds = (number/100)%10;
 
+	if (number>999){
+		hundreds = number/ 100; 
+	}
+
 	System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 
 	}
