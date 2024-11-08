@@ -42,7 +42,7 @@ public class TimeFormat {
 	
 		else if (hours < 10) {
 		System.out.println(hours + ":0" + minutes + " AM");}
-	
+     	
 	}
     }	
 }
